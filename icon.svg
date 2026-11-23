@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 52 160 160" width="512" height="512"><defs>
+    <linearGradient id="tsSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26385e"/><stop offset=".45" stop-color="#7d5f86"/><stop offset=".78" stop-color="#e59a6a"/><stop offset="1" stop-color="#f7cf86"/></linearGradient>
+    <linearGradient id="tsWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9a27a"/><stop offset=".35" stop-color="#7a7f98"/><stop offset="1" stop-color="#2f4b66"/></linearGradient>
+    <linearGradient id="tsGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c4"/><stop offset=".45" stop-color="#e8bb55"/><stop offset=".55" stop-color="#c38f2c"/><stop offset="1" stop-color="#f1cf74"/></linearGradient>
+    <linearGradient id="tsGoldH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a6a22"/><stop offset=".3" stop-color="#f6d98a"/><stop offset=".55" stop-color="#c8923a"/><stop offset=".8" stop-color="#f3d27e"/><stop offset="1" stop-color="#9a6a22"/></linearGradient>
+    <linearGradient id="tsWood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b4026"/><stop offset=".5" stop-color="#4c2b19"/><stop offset="1" stop-color="#3a2012"/></linearGradient>
+    <linearGradient id="tsGreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f4a2a"/><stop offset="1" stop-color="#1b2d18"/></linearGradient>
+    <linearGradient id="tsIron" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a5550"/><stop offset=".5" stop-color="#26231f"/><stop offset="1" stop-color="#151310"/></linearGradient>
+    <radialGradient id="tsMoon"><stop offset="0" stop-color="#fff6d6"/><stop offset=".35" stop-color="#ffe3a0" stop-opacity=".9"/><stop offset="1" stop-color="#ffd28a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="tsVig" cx=".5" cy=".45" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#2a1608" stop-opacity=".55"/></radialGradient>
+    <filter id="tsGrain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".012 .45" numOctaves="3" seed="7"/><feColorMatrix values="0 0 0 0 .2  0 0 0 0 .1  0 0 0 0 .04  0 0 0 .55 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+    <filter id="tsAge" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .35  0 0 0 0 .25  0 0 0 0 .15  0 0 0 .22 -.02"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+    <filter id="tsShadow" x="-10%" y="-10%" width="130%" height="140%"><feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#1a0c04" flood-opacity=".45"/></filter>
+    <clipPath id="tsPic"><path d="M70 66 Q70 52 84 52 L216 52 Q230 52 230 66 L230 142 L70 142 Z"/></clipPath>
+   </defs>
+<clipPath id="icClip"><rect x="70" y="52" width="160" height="160" rx="34"/></clipPath>
+<g clip-path="url(#icClip)">
+ <rect x="70" y="52" width="160" height="160" fill="url(#tsSky)"/>
+ <circle cx="186" cy="118" r="34" fill="url(#tsMoon)"/><circle cx="186" cy="118" r="10" fill="#fff2c8"/>
+ <g fill="#fff6dc" opacity=".9"><circle cx="92" cy="70" r="1.1"/><circle cx="120" cy="64" r=".8"/><circle cx="150" cy="78" r=".9"/><circle cx="210" cy="68" r="1"/><circle cx="222" cy="86" r=".7"/></g>
+ <path d="M70 136 C94 126 116 131 140 128 C168 125 196 132 230 126 L230 150 L70 150 Z" fill="#3e4152"/>
+ <g fill="#2a2a33"><rect x="98" y="112" width="11" height="28"/><path d="M97 112 L103.5 82 L110 112 Z"/><rect x="109" y="122" width="20" height="18"/><path d="M108 122 L119 115 L130 122 Z"/><rect x="101.5" y="118" width="4" height="5" fill="#f5c46a"/></g>
+ <g fill="#26332a"><circle cx="80" cy="138" r="8"/><circle cx="214" cy="136" r="7"/><circle cx="224" cy="134" r="8"/></g>
+ <path d="M70 146 C110 142 170 143 230 145 L230 152 L70 152 Z" fill="#46603a"/>
+ <rect x="70" y="150" width="160" height="62" fill="url(#tsWater)"/>
+ <ellipse cx="186" cy="160" rx="7" ry="14" fill="#ffe7b0" opacity=".4"/>
+ <g transform="translate(150 172) rotate(-6) scale(1.35)">
+  <path d="M-46 0 L40 0 Q50 0 54 -5 L56 -2 Q52 6 40 6 L-42 6 Q-48 6 -50 3 Z" fill="#8f2a24"/>
+  <path d="M-46 0 L40 0 Q50 0 54 -5" stroke="#1b1512" stroke-width="1.6" fill="none"/>
+  <path d="M-30 -9 L30 -9 L30 0 L-30 0 Z" fill="#2c6b3a"/><path d="M-32 -10.5 L32 -10.5 L31 -8.5 L-31 -8.5 Z" fill="#7a2a20"/>
+  <g fill="#ffd27a"><circle cx="-20" cy="-4.5" r="1.6"/><circle cx="-8" cy="-4.5" r="1.6"/><circle cx="4" cy="-4.5" r="1.6"/><circle cx="16" cy="-4.5" r="1.6"/></g>
+  <rect x="20" y="-15" width="2.4" height="6" fill="#1b1512"/>
+  <path d="M-46 0 L-52 -6" stroke="#3a2a1c" stroke-width="1.3"/>
+ </g>
+ <g stroke="#f7d9a8" stroke-width="1" opacity=".5" stroke-linecap="round"><path d="M84 192 h26"/><path d="M180 196 h30"/><path d="M130 204 h22"/></g>
+ <rect x="70" y="52" width="160" height="160" fill="url(#tsVig)"/>
+</g>
+<rect x="72.5" y="54.5" width="155" height="155" rx="32" fill="none" stroke="url(#tsGoldH)" stroke-width="5"/>
+</svg>
